@@ -12,5 +12,13 @@ We use this module to send logon information from Windows servers to our Graphit
 
 ### Usage
 
-`Send-ToGraphite -Graphite <graphite server name> -CustomPath <graphite path> -Value <data point to send> -Time <time stamp>
+`Send-ToGraphite -GraphiteServer <graphite server name> -CustomPath <graphite path> -Value <data point to send> -Time <time stamp>`
+
+`-GraphiteServer`: Name of the Graphite server
+
+`-CustomPath`: Graphite data path. For example test_server.logins.count
+
+`-Value`: Data value to send to Graphite server
+
+`-Time`: Time stamp for data point. It will be converted to epoch time by the module
 
