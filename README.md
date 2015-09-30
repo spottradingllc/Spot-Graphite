@@ -1,6 +1,6 @@
 ### Spot-Graphite Module
 
-We use this module to send [logon information]((https://github.com/spottradingllc/get-logins-to-graphite) from Windows servers to our Graphite server so we can use that information in [UnusedServers PowerShell module](https://github.com/spottradingllc/unused-servers).
+We use this module to send [logon information](https://github.com/spottradingllc/get-logins-to-graphite) from Windows servers to our Graphite server so we can use that information in [UnusedServers PowerShell module](https://github.com/spottradingllc/unused-servers).
 
 ### Installation
 
