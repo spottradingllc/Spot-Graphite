@@ -12,4 +12,5 @@ We use this module to send logon information from Windows servers to our Graphit
 
 ### Usage
 
-`Send-ToGraphite -Graphite <graphite server name>` 
+`Send-ToGraphite -Graphite <graphite server name> -CustomPath <graphite path> -Value <data point to send> -Time <time stamp>
+
