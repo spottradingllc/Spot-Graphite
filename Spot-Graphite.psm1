@@ -2,11 +2,12 @@
 	
 	param (
 	
-	[Parameter( Mandatory = $true )]
+		[Parameter( Mandatory = $true )]
         [string]
         $GraphiteServer
-	)
 	
+	)
+		
 	$ErrorActionPreference = "Stop"
 
 	#Error handling
